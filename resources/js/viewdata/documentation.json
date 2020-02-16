@@ -51,7 +51,7 @@
         "title" : "Will you spy on me? Is it safe?",
         "messages" : [
             "By the very nature of Bouncedat, your requests are saved to the server in a form that allows the application to retrieve your past requests upon login",
-            "If you delete a request from your history, it is not removed from the sever logs",
+            "If you delete a request from your history, it is not removed from the server logs",
             "Please do not use Bouncedat for any illegal activity, your account will be terminated if you are found to be using the service for nefarious deeds"
         ]
     }

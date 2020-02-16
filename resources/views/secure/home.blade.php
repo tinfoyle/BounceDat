@@ -2,6 +2,6 @@
 
 @section('content')
 <div class="container-fluid">
-    <vue-application></vue-application>
+    <home-application></home-application>
 </div>
 @endsection
