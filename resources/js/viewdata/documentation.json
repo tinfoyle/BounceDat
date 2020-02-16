@@ -1,0 +1,58 @@
+[
+    {
+        "title" : "What's this for?",
+        "messages" : [
+            "This really is just a big excuse for me to learn Vue",
+            "Don't expect this to be good or anything",
+            "We have a huge hurdle to get through"
+        ]
+    },
+    {
+        "title" : "Hurdle?",
+        "messages" : [
+            "Yes, there's a serious problem preventing this project from being what I wanted it to be",
+            "What I wanted was that this could be a client-side application that would be able to make requests at will",
+            "I wanted to provide freedom in a platform to simulate requests like Postman, but without all the crap"
+        ]
+    },
+    {
+        "title" : "Requests?",
+        "messages" : [
+            "Bouncedat is a platform for making post requests, the project goal is to emulate cURL in a browser using a user interface",
+            "The goals for the interface are simply to allow endpoint analysis and saving of the collected data for the session",
+            "Then you can save those requests to your account"
+        ]
+    },
+    {
+        "title" : "But wasn't there a problem preventing this?",
+        "messages" : [
+            "The problem is that when you're making a request from this site, bouncedat.com, your browser must make a preflight request to ensure that the target server accepts a request of a cross-origin-domain",
+            "CORS is the enemy, and this platform will use a VueJS application that opens a websocket to a request translator",
+            "The translator will magically make the request for you in a way that won't bother CORS, and then you can get the response. This will be an excellent tool for API analysis, especially when the target API has the wrong cross-origin headers"
+        ]
+    },
+    {
+        "title" : "Sounds Dangerous",
+        "messages" : [
+            "It is.",
+            "The potential for abuse of such a tool like this is quite high",
+            "You are free to create an account and make requests within the quota"
+        ]
+    },
+    {
+        "title" : "Quota?",
+        "messages" : [
+            "The quota of alotted requests allowed through the Bouncedat service will be limited per hour, which will reset at the top of each hour",
+            "The hourly quota may change from time to time based on server load",
+            "Be nice, it should be quite difficult to reach your hourly quota"
+        ]
+    },
+    {
+        "title" : "Will you spy on me? Is it safe?",
+        "messages" : [
+            "By the very nature of Bouncedat, your requests are saved to the server in a form that allows the application to retrieve your past requests upon login",
+            "If you delete a request from your history, it is not removed from the sever logs",
+            "Please do not use Bouncedat for any illegal activity, your account will be terminated if you are found to be using the service for nefarious deeds"
+        ]
+    }
+]

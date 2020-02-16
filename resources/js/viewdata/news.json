@@ -1,0 +1,14 @@
+[
+    {
+        "title" : "Started Project",
+        "messages" : [
+            "This is day 1 of the project",
+            "Created the welcome, docs, and news pages.",
+            "The next steps are to do a full-pass on the CSS and building the home page"
+        ],
+        "footer" : {
+            "author" : "This sounds like fun",
+            "date" : "2/16/2020 - 10 am"
+        }
+    }
+]

@@ -1,0 +1,75 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Faster+One|IBM+Plex+Mono|Nunito&display=swap');
+
+// Variables
+@import 'variables';
+
+// Color Pallete
+@import 'colorpallete';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+html, body {
+    background-color: rgb(0, 0, 0);
+    color: #b7f4ff;
+    font-family: 'IBM Plex Mono', cursive;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+.full-height {
+    height: 100vh;
+}
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.position-ref {
+    position: relative;
+}
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+.content {
+    text-align: center;
+}
+.title {
+    font-family: 'Faster One', cursive;
+    font-size: 84px;
+    margin-bottom: 5%;
+}
+.links > a {
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.docs-container {
+    position: absolute;
+    padding-left: 50%;
+}
+
+.navbar-brand{
+    font-family: 'Faster One', cursive;
+}
+
+nav, .card, .form-control, a, .dropdown-menu, .dropdown-item, .links, input {
+    background-color: rgb(0, 0, 0);
+    color: #b7f4ff;
+}
+
+.dropdown-item:hover, .links:hover {
+    background-color: rgb(0, 0, 0);
+    color: #1d68a7;
+}
