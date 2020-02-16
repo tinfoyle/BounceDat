@@ -7,5 +7,5 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Request extends Model
 {
-    //
+    use SoftDeletes;
 }
