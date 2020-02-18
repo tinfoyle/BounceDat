@@ -35,6 +35,6 @@ Route::get('/news', function() {
 /**
  * Home Page
  */
+Route::post('/home/dashboard', 'HomeController@getDashboardInfo')->name('home')->middleware('verified');
+
 Route::get('/home', 'HomeController@index')->name('home')->middleware('verified');
-
-

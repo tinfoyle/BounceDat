@@ -23,6 +23,11 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('secure/home');
+        return view('secure/home')->with('userId', auth()->user()->id);
+    }
+
+    public function getDashboardInfo()
+    {
+        return json_encode(auth()->user());
     }
 }

@@ -1,0 +1,23 @@
+{
+    "something":"from JSON land",
+    "dashboardTitle":"Main Menu",
+    "dashboardDescription":"Select An Option",
+    "dataRoute":{
+        "user" :{
+            "get" : "https://app.bouncedat.com/home/dashboard"
+        }
+    },
+    "cards" : [
+        {
+            "id" : 1,
+            "title" : "User Info",
+            "type" : "userinfo"
+        },
+        {
+            "id" : 2,
+            "title" : "Welcome",
+            "type" : "text",
+            "content" : "Welcome to your Dashboard"
+        }
+    ]
+}

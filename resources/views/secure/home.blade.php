@@ -2,6 +2,6 @@
 
 @section('content')
 <div class="container-fluid">
-    <home-application></home-application>
+    <home-application userId="{{ $userId }}"></home-application>
 </div>
 @endsection

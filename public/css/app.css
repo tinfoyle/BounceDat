@@ -10978,9 +10978,14 @@ input {
 
 .dash-card-body {
   height: 90%;
+  font-size: 24px;
 }
 
-.dash-card-body {
+.dash-card-title {
   font-size: 24px;
+}
+
+.dashboard-header {
+  text-align: center;
 }
 
